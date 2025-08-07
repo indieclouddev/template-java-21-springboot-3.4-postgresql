@@ -1,4 +1,4 @@
-package com.example.demo21;
+package com.example.demo;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -11,8 +11,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo21.persistence.SessionEntity;
-import com.example.demo21.persistence.SessionRepo;
+import com.example.demo.persistence.SessionEntity;
+import com.example.demo.persistence.SessionRepo;
 
 @SpringBootApplication
 @EnableJpaRepositories(basePackages = "com.example.demo")
