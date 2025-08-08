@@ -17,10 +17,10 @@ import com.example.demo.persistence.SessionRepo;
 @SpringBootApplication
 @EnableJpaRepositories(basePackages = "com.example.demo")
 @EntityScan(basePackages = "com.example.demo.persistence")
-public class DemoApplication {
+public class TemplateJava21SpringBoot3_4PostgresqlApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(TemplateJava21SpringBoot3_4PostgresqlApplication.class, args);
     }
 
     /*

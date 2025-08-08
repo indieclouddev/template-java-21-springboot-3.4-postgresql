@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>demo-j21</artifactId>
+	<artifactId>template-java-21-springboot-3.4-postgresql</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo-j21</name>
-	<description>Demo project for Spring Boot</description>
+	<name>template-java-21-springboot-3.4-postgresql</name>
+	<description>Template project for Spring Boot with PostgreSQL</description>
 	<url/>
 	<licenses>
 		<license/>
