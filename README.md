@@ -1,15 +1,13 @@
 # IndieCloud Template: `template-java-21-springboot-3.4-postgresql`
 
-A minimal Java 21 + Spring Boot 3.4 project with PostgreSQL, ready to deploy on [IndieCloud](https://indiecloud.dev).  
-No need to set up boilerplate for the 37th time.
+A minimal Spring Boot setup using Java 21, PostgreSQL, and JPA/Hibernate.  
+Great as a starting point for real-world backend apps, side projects, or if you just want to avoid wiring up the same boilerplate for the 37th time.
 
 ## What's inside
-
 - Java 21
 - Spring Boot 3.4
-- PostgreSQL (configured via `application.yml`)
+- PostgreSQL
 - JPA/Hibernate
-- Dockerfile (compatible with IndieCloud auto-build)
 
 ## How to use
 
@@ -28,11 +26,21 @@ git commit -m "Initial commit"
 git push -u origin main
 ```
 
+## Run it locally
+You can run the app locally for development:
+```bash
+./mvnw spring-boot:run
+```
+>Note: Make sure you have Java 21 installed and set up.
+
+## Hosting
+This project is also ready-to-deploy on [IndieCloud](https://indiecloud.dev),  
+but you can just as easily run it on your own infra or push it to any Git host.
+
 ### Getting Started
 See our [Getting Started with Spring Boot](https://docs.indiecloud.dev/docs/frameworks/spring-boot/) guide for details on how to set up and deploy it on IndieCloud.
 
 ### Questions?
-
 Need help adapting this template?  
 - Email: info@indiecloud.dev  
 - Discord: [indiecloud.dev/discord](https://indiecloud.dev/discord)
